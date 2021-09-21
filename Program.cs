@@ -20,29 +20,7 @@ namespace Sphinx
     public static void Main()
     {
       Questions(); 
-    }
-    
-
-    public static int getRandomInt(int min, int max) {
-      Random random = new Random();
-
-      return random.nextInt((max - min) + 1) + min;
-    }     
-      public static ArrayList<Integer> getRandomNonRepeatingIntegers(int size, int min,
-          int max) {
-
-      ArrayList<Integer> numbers = new ArrayList<Integer>();
-
-      while (numbers.size() < size) {
-          int random = getRandomInt(min, max);
-
-          if (!numbers.contains(random)) {
-              numbers.add(random);
-          }
-      }
-    return numbers;
-    }
-
+    } 
 
      public static void Questions() {
       List<string> riddles = new List<string>();
@@ -52,36 +30,39 @@ namespace Sphinx
       riddles.Add("I'm alive, but without breath; I'm as cold in life as in death; I'm never thirsty, though I always drink.");
 
       string[] answerArr = {"person", "time", "death", "fish"};
-
-      // Random rand = new Random();
-      // int randNum = rand.Next(0,3);
-
-     var randNum = getRandomInt(0,3);
-
-      //Console.WriteLine(randNum);
-      Console.WriteLine(riddles[randNum]);
-      string strAnswer = Console.ReadLine();
-      string lowerStrAnswer = strAnswer.ToLower();
-      riddles.Remove(riddles[randNum]);    
-
-      if (lowerStrAnswer == answerArr[randNum]) 
-      {
-        Console.WriteLine("Sphinx is defeated"); 
-        Questions(); 
-      }
-      else
-      {
-        System.Console.WriteLine("You lost, your heart gets eaten, nom nom");
-      }
       
+      List<int> listNumbers = new List<int>();
+      int number;
+      Random rand = new Random();
+      number = rand.Next(0,3);
+      // for (int i = 0; i < 4; i++)
+      // {
+      //   do {
+      //     number = rand.Next(0, 3);
+      //   } while (listNumbers.Contains(number));
+      //   listNumbers.Add(number);
+      // }
 
+        Console.WriteLine(riddles[number]);
+        string strAnswer = Console.ReadLine();
+        string lowerStrAnswer = strAnswer.ToLower();
+
+        foreach(string item in riddles){
+
+          if (lowerStrAnswer == answerArr[number]) 
+          {
+            Console.WriteLine("Sphinx is defeated"); 
+            // tempRiddles.RemoveAt(number);
+            Questions(); 
+          }
+          else
+          {
+            System.Console.WriteLine("You lost, your heart gets eaten, nom nom");
+          }
+          riddles.RemoveAt(number);
+        }
      }
-    //   Questions();
-    //   //if user loses
-    //   Lose();
-    //   Main();
-    // }
-  }
+   }
 }
 
 
