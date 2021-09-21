@@ -1,0 +1,16 @@
+C:\Users\john smith\Desktop\epicodus\C#\sphinxRiddles\obj\Debug\net5.0\sphinx.csproj.AssemblyReference.cache
+C:\Users\john smith\Desktop\epicodus\C#\sphinxRiddles\obj\Debug\net5.0\sphinx.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\john smith\Desktop\epicodus\C#\sphinxRiddles\obj\Debug\net5.0\sphinx.AssemblyInfoInputs.cache
+C:\Users\john smith\Desktop\epicodus\C#\sphinxRiddles\obj\Debug\net5.0\sphinx.AssemblyInfo.cs
+C:\Users\john smith\Desktop\epicodus\C#\sphinxRiddles\obj\Debug\net5.0\sphinx.csproj.CoreCompileInputs.cache
+C:\Users\john smith\Desktop\epicodus\C#\sphinxRiddles\bin\Debug\net5.0\sphinx.exe
+C:\Users\john smith\Desktop\epicodus\C#\sphinxRiddles\bin\Debug\net5.0\sphinx.deps.json
+C:\Users\john smith\Desktop\epicodus\C#\sphinxRiddles\bin\Debug\net5.0\sphinx.runtimeconfig.json
+C:\Users\john smith\Desktop\epicodus\C#\sphinxRiddles\bin\Debug\net5.0\sphinx.runtimeconfig.dev.json
+C:\Users\john smith\Desktop\epicodus\C#\sphinxRiddles\bin\Debug\net5.0\sphinx.dll
+C:\Users\john smith\Desktop\epicodus\C#\sphinxRiddles\bin\Debug\net5.0\ref\sphinx.dll
+C:\Users\john smith\Desktop\epicodus\C#\sphinxRiddles\bin\Debug\net5.0\sphinx.pdb
+C:\Users\john smith\Desktop\epicodus\C#\sphinxRiddles\obj\Debug\net5.0\sphinx.dll
+C:\Users\john smith\Desktop\epicodus\C#\sphinxRiddles\obj\Debug\net5.0\ref\sphinx.dll
+C:\Users\john smith\Desktop\epicodus\C#\sphinxRiddles\obj\Debug\net5.0\sphinx.pdb
+C:\Users\john smith\Desktop\epicodus\C#\sphinxRiddles\obj\Debug\net5.0\sphinx.genruntimeconfig.cache
